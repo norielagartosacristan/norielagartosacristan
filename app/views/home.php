@@ -10,6 +10,22 @@
 
 
     <section class="product-showcase">
+
+
+    <?php if (!empty($products)) : ?>
+        <ul>
+            <?php foreach ($products['data']['productList'] as $product) : ?>
+                <li>
+                    <strong><?= $product['name'] ?></strong><br>
+                    Price: <?= $product['price'] ?><br>
+                    <img src="<?= $product['image'] ?>" alt="<?= $product['name'] ?>" width="100">
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    <?php else: ?>
+        
+        <p>No products found.</p>
+    <?php endif; ?>
         <h2>Featured Products</h2>
         <div class="product-grid">
             <div class="product-card">
