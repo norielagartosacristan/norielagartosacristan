@@ -28,8 +28,9 @@ body {
 }
 
 .main-content {
+    position: fixed;
     margin-left: 250px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .header {
