@@ -1,3 +1,5 @@
+<?php
+
 $url = isset($_GET['url']) ? $_GET['url'] : 'home';
 switch ($url) {
     case 'cj-products':
