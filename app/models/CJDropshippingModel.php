@@ -3,7 +3,7 @@ class CJDropshippingModel {
     private $apiKey;
 
     public function __construct() {
-        $this->apiKey = 'YOUR_CJ_API_KEY';
+        $this->apiKey = '5b1e5c429207455d8426258b882225c4';
     }
 
     // Function to get product list from CJ
