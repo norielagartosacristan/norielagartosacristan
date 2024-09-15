@@ -14,6 +14,7 @@
             <li><a href="#">Manage Products</a></li>
             <li><a href="#">View Orders</a></li>
             <li><a href="#">Manage Suppliers</a></li>
+            <li><a href="C:\ecommerce\htdocs\norielagartosacristan\app\views\cj_products.php"></a></li>
         </ul>
     </div>
 
@@ -21,3 +22,4 @@
         <div class="header">
             <h1>Welcome, Admin</h1>
         </div>
+    </div>
